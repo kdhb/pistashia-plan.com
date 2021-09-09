@@ -1,0 +1,319 @@
+*{
+margin: 0px;
+padding: 5px;
+font-size: 20px;
+border-radius: 10%;
+}
+img{height: 100%;
+width: 100%;
+}
+
+body{
+background-image : url(img/WhatsApp\ Image\ 2021-09-07\ at\ 2.44.31\ PM.jpeg);
+background-attachment: fixed;
+background-size: cover;
+position: relative; 
+}
+
+
+
+header{width: 550px; height: 150px;
+background-color: #005f3b;
+font-family: 'Courier New', Courier, monospace;
+font-size: 80px;
+font-weight: 900;
+color: rgba(0, 0, 0, 0.856);
+margin-left:23%;
+margin-bottom: 5%;
+padding-left: 6%;
+border-radius: 50%;
+}
+span{font-size: 100px;
+font-weight: 800;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+color: rgb(0, 79, 250);
+}
+
+.lam{
+height: 160px;
+width: 160px;
+position: absolute ;right:5% ; 
+}
+.lam img{border-radius: 50%;}
+.lam:hover {
+    height: 190px;
+width: 190px;
+position: absolute ;right:4% ; 
+}
+
+  
+.go{
+    text-decoration: none;
+ width: 77px; height: 40px;
+ padding: 20px;
+color: rgb(0, 0, 0);
+font-size: 20px;
+background-color: rgb(8, 145, 65);
+position: absolute; top: 79px; left: 0px;
+display: none;
+ }
+.goo{text-decoration: none;
+    width: 77px; height: 40px;
+    padding: 20px; 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(8, 145, 65);
+position: absolute;top: 150px; left: 0px;
+display: none;
+}
+
+ .go:hover{background-color: lightskyblue;     color: rgb(0, 0, 0);}
+ .goo:hover{background-color: lightskyblue;     color: rgb(0, 0, 0);}
+
+
+ .about{height: 300px;  width: 1000px;  
+    background-color:rgba(0, 0, 0, 0.7); 
+    color: rgb(233, 196, 142); 
+    display:block; margin: auto;   margin-bottom: 50px;   
+    padding: 50px; 
+font-size:25px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.vision{  background-color:rgba(0, 0, 0, 0.7); 
+    color: rgb(233, 196, 142); 
+width: 1000px; height: 250px;
+display: block; margin: auto;   
+padding: 50px;
+margin-bottom: 50px;
+font-size:25px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.massion{background-color:rgba(0, 0, 0, 0.7); 
+    color:  rgb(233, 196, 142); 
+width: 1000px; height: 180px;
+display: block; margin: auto;   
+padding: 50px;
+margin-bottom: 50px;
+font-size:25px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+.contact{
+    background-color:rgba(0, 0, 0, 0.7); 
+    color:  rgb(233, 196, 142); 
+width: 1000px; height: 300px;
+display: block; margin: auto;   
+padding: 20px;
+margin-bottom: 50px;
+}
+
+.fac{height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 13%;
+} 
+.fac:hover{height: 130px;   width: 130px;
+margin-left: 10%;
+}
+
+
+.nom{ color: honeydew;
+    font-size: 40px;
+    animation: goo 3s infinite;
+}
+
+@keyframes goo{
+50%{color: blue;  font-size: 50px;} 
+}
+
+
+
+
+h1{
+text-align: center;
+font-size: 36px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-bottom: 40px; 
+color:#3192ee;
+}
+h1:hover{font-size: 45px;
+padding-top: 0px;
+}
+
+h2{text-align: center; 
+    color: rgb(214, 208, 208);
+font-size: 35px;
+padding-bottom: 50px;
+}
+
+
+.icon-menu{ font-size: 70px;
+position: absolute;top: 10px; left: 0px;
+color: rgb(0, 78, 48);
+}
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+
+    *{
+        margin: 0px;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 10%;
+        }
+        img{height: 100%;
+        width: 100%;
+        }
+        
+        body{
+        background-image : url(img/WhatsApp\ Image\ 2021-09-07\ at\ 2.44.31\ PM.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative; 
+        }
+        
+        
+        
+        header{width: 220px; height: 80px;
+        background-color: #005f3b;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 35px;
+        font-weight: 900;
+        color: rgba(0, 0, 0, 0.856);
+        margin-left:15%;
+        margin-bottom: 5%;
+        padding-left: 6%;
+        border-radius: 50%;
+        }
+        span{font-size: 50px;
+        font-weight: 800;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        color: rgb(0, 79, 250);
+        }
+        
+        .lam{
+        height: 70px;
+        width: 70px;
+        position: absolute ;right:0% ; 
+        }
+        .lam img{border-radius: 50%;}
+        .lam:hover {
+            height: 90px;
+        width: 90px;
+        position: absolute ;right:4% ; 
+        }
+        
+          
+        .go{
+            text-decoration: none;
+         width: 40px; height: 20px;
+         padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        background-color: rgb(8, 145, 65);
+        position: absolute; top: 80px; left: 6px;
+        display: none;
+         }
+        .goo{text-decoration: none;
+            width: 40px; height: 20px;
+            padding: 10px; 
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            background-color: rgb(8, 145, 65);
+        position: absolute;top: 112px; left: 6px;
+        display: none;
+        }
+        
+         .go:hover{background-color: lightskyblue;     color: rgb(0, 0, 0);}
+         .goo:hover{background-color: lightskyblue;     color: rgb(0, 0, 0);}
+        
+        
+         .about{height: 325px;  width: 300px;  
+            background-color:rgba(0, 0, 0, 0.7); 
+            color: rgb(233, 196, 142); 
+            display:block; margin: auto;   margin-bottom: 50px;   
+            padding: 25px; 
+        font-size:20px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+        
+        .vision{  background-color:rgba(0, 0, 0, 0.7); 
+            color: rgb(233, 196, 142); 
+        width: 300px; height: 210px;
+        display: block; margin: auto;   
+        padding: 25px;
+        margin-bottom: 30px;
+        font-size:20px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+        
+        .massion{background-color:rgba(0, 0, 0, 0.7); 
+            color:  rgb(233, 196, 142); 
+        width: 300px; height: 125px;
+        display: block; margin: auto;   
+        padding: 25px;
+        margin-bottom: 30px;
+        font-size:20px;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+        
+        
+        .contact{
+            background-color:rgba(0, 0, 0, 0.7); 
+            color:  rgb(233, 196, 142); 
+        width: 330px; height: 150px;
+        display: block; margin: auto;   
+        padding: 2px;
+        margin-bottom: 30px;
+        }
+        
+        .fac{height: 35px;
+            width: 35px;
+            float: left;
+            margin-left: 10%;
+        } 
+        .fac:hover{height: 50px;   width: 50px;
+        margin-left: 10%;
+        }
+        
+        
+        .nom{ color: honeydew;
+            font-size: 20px;
+            animation: goo 3s infinite;
+        }
+        
+        @keyframes goo{
+        50%{color: blue;  font-size: 23px;} 
+        }
+        
+        
+        
+        
+        h1{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-bottom: 10px; 
+        color:#3192ee;
+        }
+        h1:hover{font-size: 35px;
+        padding-top: 0px;
+        }
+        
+        h2{text-align: center; 
+            color: rgb(214, 208, 208);
+        font-size: 22px;
+        padding-bottom: 20px;
+        }
+        
+        
+        
+        
+        .icon-menu{ font-size: 40px;
+        position: absolute;top: 40px; left: 0px;
+        color: rgb(0, 78, 48);
+        }
+}

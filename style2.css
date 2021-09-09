@@ -1,0 +1,336 @@
+body{
+
+    background-color: rgb(250, 233, 246);
+    position: relative;
+}
+ span{
+     color: rgb(226, 50, 138);
+ }
+   
+.container img{
+     width:350px;
+     height: 300px;
+}
+.container img:hover{
+    width:450px;
+    height: 350px;
+}
+
+     *{
+        margin: 0px;;
+        padding:0px;
+    } 
+    
+    .load{
+        animation: slide 2s;
+    }
+
+    .slider{
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        border-radius: 60px;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgb(0, 0, .5);
+        width: 100%;
+        height: 100vh;
+        animation: slide 40s infinite;
+    }
+    .content{
+       
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+          background-color: rgba(49, 184, 247, 0.349);
+    }
+    .principipal{
+        left: 200px;
+        top: 100px;
+        transition: translate(-50%,-50%);
+        position: absolute;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .principipal h1{
+        font-size: 70px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-rendering: optimizeSpeed;
+        text-transform: uppercase;
+    }
+    .principipal p{
+        text-align: center;
+        font-size:40px;
+        color: rgb(28, 29, 43);
+    }
+    .principipal h2{
+        text-align: center;
+        font-size: 50px;
+        color: rgb(102, 8, 105);
+    }
+    .principipal h3{
+        font-size: 30px;
+        text-align: center;
+        color: rgb(218, 72, 145);
+    }
+    
+    @keyframes slide{
+        
+        0%{
+            background-image: url(imges/10.jpg);
+         }
+         50%{
+             background-image: url(imges/1.jpg); 
+         }
+         80%{
+             background-image: url(imges/4.jpg); 
+         }
+         20%{
+             background-image: url(imges/15.jpg);
+          }
+          30%{
+             background-image: url(imges/7.jpg); 
+         }
+          80%{
+             background-image: url(imges/8.jpg);
+          }
+          20%{
+             background-image: url(imges/5.jpg);
+          }
+         80%{
+              background-image: url(imges/11.jpg); 
+          }
+          30%{
+              background-image: url(imges/9.jpg); 
+          }
+          20%{
+              background-image: url(imges/2.jpg);
+           }
+          70%{
+              background-image: url(imges/16.jpg);
+           }
+           30%{
+             background-image: url(imges/1.jpg); 
+         }
+         30%{
+             background-image: url(imges/2.jpg); 
+         }
+           60%{
+             background-image: url(imges/3.jpg); 
+         }
+         100%{
+             background-image: url(imges/12.jpg);
+          }
+          50%{
+              background-image: url(imges/16.jpg); 
+          }
+          70%{
+              background-image: url(imges/3.jpg); 
+          }
+          20%{
+              background-image: url(imges/4.jpg);
+           }
+           30%{
+              background-image: url(imges/2.jpg); 
+          }
+           80%{
+              background-image: url(imges/8.jpg);
+           }
+           20%{
+              background-image: url(imges/16.jpg);
+           }
+          50%{
+               background-image: url(imges/3.jpg); 
+           }
+           30%{
+               background-image: url(imges/2.jpg); 
+           }
+           20%{
+               background-image: url(imges/11.jpg);
+            }
+           100%{
+               background-image: url(imges/12.jpg);
+            }
+            30%{
+              background-image: url(imges/16.jpg); 
+          }
+          30%{
+              background-image: url(imges/12.jpg); 
+          }
+          100%{
+              background-image: url(imges/2.jpg); 
+           }   
+           
+        }
+
+        @media(max-width:500px){
+
+body{
+
+    background-color: rgb(250, 233, 246);
+    position: relative;
+}
+ span{
+     color: rgb(226, 50, 138);
+ }
+   
+.container img{
+     width:350px;
+     height: 300px;
+}
+.container img:hover{
+    width:450px;
+    height: 350px;
+}
+
+     *{
+        margin: 0px;;
+        padding:0px;
+    } 
+    
+    .load{
+        animation: slide 2s;
+    }
+
+ .slider{
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        border-radius: 60px;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgb(0, 0, .5);
+        width: 100%;
+        height: 100vh;
+        animation: slide 40s infinite;
+    }
+    .content{
+       
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+          background-color: rgba(102, 169, 231, 0.322);
+    }
+    .principipal{
+        left: 0px;
+        top: 50px;
+        transition: translate(-50%,-50%);
+        position: absolute;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .principipal h1{
+        font-size: 70px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-rendering: optimizeSpeed;
+        text-transform: uppercase;
+    }
+    .principipal p{
+        text-align: center;
+        font-size:40px;
+        color: rgb(28, 29, 43);
+    }
+    .principipal h2{
+        text-align: center;
+        font-size: 50px;
+        color: rgb(102, 8, 105);
+    }
+    .principipal h3{
+        font-size: 30px;
+        text-align: center;
+        color: rgb(218, 72, 145);
+    }
+    
+    @keyframes slide{
+        
+        0%{
+            background-image: url(imges/10.jpg);
+         }
+         50%{
+             background-image: url(imges/1.jpg); 
+         }
+         80%{
+             background-image: url(imges/4.jpg); 
+         }
+         20%{
+             background-image: url(imges/15.jpg);
+          }
+          30%{
+             background-image: url(imges/7.jpg); 
+         }
+          80%{
+             background-image: url(imges/8.jpg);
+          }
+          20%{
+             background-image: url(imges/5.jpg);
+          }
+         80%{
+              background-image: url(imges/11.jpg); 
+          }
+          30%{
+              background-image: url(imges/9.jpg); 
+          }
+          20%{
+              background-image: url(imges/2.jpg);
+           }
+          70%{
+              background-image: url(imges/16.jpg);
+           }
+           30%{
+             background-image: url(imges/1.jpg); 
+         }
+         30%{
+             background-image: url(imges/2.jpg); 
+         }
+           60%{
+             background-image: url(imges/3.jpg); 
+         }
+         100%{
+             background-image: url(imges/12.jpg);
+          }
+          50%{
+              background-image: url(imges/16.jpg); 
+          }
+          70%{
+              background-image: url(imges/3.jpg); 
+          }
+          20%{
+              background-image: url(imges/4.jpg);
+           }
+           30%{
+              background-image: url(imges/2.jpg); 
+          }
+           80%{
+              background-image: url(imges/8.jpg);
+           }
+           20%{
+              background-image: url(imges/16.jpg);
+           }
+          50%{
+               background-image: url(imges/3.jpg); 
+           }
+           30%{
+               background-image: url(imges/2.jpg); 
+           }
+           20%{
+               background-image: url(imges/11.jpg);
+            }
+           100%{
+               background-image: url(imges/12.jpg);
+            }
+            30%{
+              background-image: url(imges/16.jpg); 
+          }
+          30%{
+              background-image: url(imges/12.jpg); 
+          }
+          100%{
+              background-image: url(imges/2.jpg); 
+           }   
+           
+        }
+        }
